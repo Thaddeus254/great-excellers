@@ -61,8 +61,9 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 Great Excellers Centre Mombasa. All rights reserved.</p>
+            <p>&copy; 2025 Great Excellers Centre Mombasa. All rights reserved.</p>
             <p className="text-sm mt-2">Empowering students to excel during holidays</p>
+            <p className="text-sm mt-2">Designed & Published by: NexaCrafts.co.ke</p>
           </div>
         </div>
       </div>
