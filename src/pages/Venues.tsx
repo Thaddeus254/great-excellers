@@ -17,8 +17,7 @@ const Venues = () => {
         'Modern classrooms',
         'Science laboratory',
         'Computer lab access',
-        'Library facilities',
-        'Parking available'
+        'Library facilities'
       ],
       image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg'
     },
@@ -29,7 +28,6 @@ const Venues = () => {
       phone: '0718379933',
       whatsapp: 'https://wa.me/254718379933',
       features: [
-        'Air-conditioned classrooms',
         'Digital learning aids',
         'Practical lab sessions',
         'Resource center',
