@@ -35,9 +35,10 @@ const Booking = () => {
   ];
 
   const studentLevels = [
-    'Primary School (Class 1-8)',
-    'Junior School (Form 1-2)',
-    'Senior School (Form 3-4)'
+    'Primary School (Grade 1- Grade 6)',
+    'Junior School (Grade 7- Grade 9)',
+    'Senior School',
+    '844 system (Form 2-4)'
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
