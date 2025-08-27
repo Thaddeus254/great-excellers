@@ -9,11 +9,11 @@ const About = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-emerald-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple-600 to-green-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">About Great Excellers Centre</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-yellow-100 max-w-3xl mx-auto">
               Dedicated to nurturing academic excellence during school holidays since our inception
             </p>
           </div>
@@ -59,7 +59,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Mission */}
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-center justify-center w-16 h-16 bg-blue-100 text-blue-600 rounded-full mb-6 mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 bg-purple-100 text-purple-600 rounded-full mb-6 mx-auto">
                 <Target className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Our Mission</h3>
@@ -72,7 +72,7 @@ const About = () => {
 
             {/* Vision */}
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-center justify-center w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full mb-6 mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 bg-green-100 text-green-600 rounded-full mb-6 mx-auto">
                 <Eye className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Our Vision</h3>
@@ -85,7 +85,7 @@ const About = () => {
 
             {/* Values */}
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="flex items-center justify-center w-16 h-16 bg-amber-100 text-amber-600 rounded-full mb-6 mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 bg-red-100 text-red-600 rounded-full mb-6 mx-auto">
                 <Heart className="h-8 w-8" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Our Values</h3>
@@ -114,8 +114,8 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center group">
-              <div className="bg-blue-50 rounded-full p-6 w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <Users className="h-8 w-8 text-blue-600 mx-auto" />
+              <div className="bg-purple-50 rounded-full p-6 w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                <Users className="h-8 w-8 text-purple-600 mx-auto" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Expert Faculty</h3>
               <p className="text-gray-600">
@@ -124,8 +124,8 @@ const About = () => {
             </div>
 
             <div className="text-center group">
-              <div className="bg-emerald-50 rounded-full p-6 w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <BookOpen className="h-8 w-8 text-emerald-600 mx-auto" />
+              <div className="bg-green-50 rounded-full p-6 w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                <BookOpen className="h-8 w-8 text-green-600 mx-auto" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Comprehensive Curriculum</h3>
               <p className="text-gray-600">
@@ -134,8 +134,8 @@ const About = () => {
             </div>
 
             <div className="text-center group">
-              <div className="bg-amber-50 rounded-full p-6 w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <Award className="h-8 w-8 text-amber-600 mx-auto" />
+              <div className="bg-yellow-50 rounded-full p-6 w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                <Award className="h-8 w-8 text-yellow-600 mx-auto" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Proven Results</h3>
               <p className="text-gray-600">
@@ -147,20 +147,20 @@ const About = () => {
       </section>
 
       {/* Commitment Section */}
-      <section className="py-20 bg-gradient-to-r from-emerald-600 to-blue-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-500 to-purple-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-8">Our Commitment to Excellence</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Academic Excellence</h3>
-              <p className="text-emerald-100">
+              <p className="text-yellow-100">
                 We are committed to maintaining the highest standards of education, ensuring every 
                 student receives the support they need to excel in their studies.
               </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">Accessible Education</h3>
-              <p className="text-blue-100">
+              <p className="text-yellow-100">
                 Our pocket-friendly charges ensure that quality education is accessible to all families, 
                 because every child deserves the opportunity to excel.
               </p>

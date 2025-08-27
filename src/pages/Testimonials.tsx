@@ -72,11 +72,11 @@ const Testimonials = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-emerald-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple-600 to-green-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">Parent Testimonials</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-yellow-100 max-w-3xl mx-auto">
               Hear from parents whose children have excelled with our holiday tuition programs
             </p>
           </div>
@@ -89,7 +89,7 @@ const Testimonials = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 text-blue-600 rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 text-purple-600 rounded-full mb-4">
                   <stat.icon className="h-8 w-8" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900 mb-2">{stat.value}</div>
@@ -117,7 +117,7 @@ const Testimonials = () => {
                 className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow group"
               >
                 {/* Quote Icon */}
-                <Quote className="h-8 w-8 text-blue-600 mb-4 group-hover:scale-110 transition-transform" />
+                <Quote className="h-8 w-8 text-purple-600 mb-4 group-hover:scale-110 transition-transform" />
                 
                 {/* Rating */}
                 <div className="flex items-center mb-4">
@@ -131,7 +131,7 @@ const Testimonials = () => {
 
                 {/* Subject */}
                 <div className="mb-4">
-                  <span className="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
+                  <span className="inline-block bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">
                     {testimonial.subject}
                   </span>
                 </div>
@@ -170,8 +170,8 @@ const Testimonials = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Outstanding Results</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-emerald-100 p-2 rounded-full">
-                    <TrendingUp className="h-6 w-6 text-emerald-600" />
+                  <div className="bg-green-100 p-2 rounded-full">
+                    <TrendingUp className="h-6 w-6 text-green-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Grade Improvement</h4>
@@ -179,8 +179,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="bg-blue-100 p-2 rounded-full">
-                    <Star className="h-6 w-6 text-blue-600" />
+                  <div className="bg-purple-100 p-2 rounded-full">
+                    <Star className="h-6 w-6 text-purple-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">KCSE Success</h4>
@@ -188,8 +188,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="bg-amber-100 p-2 rounded-full">
-                    <Users className="h-6 w-6 text-amber-600" />
+                  <div className="bg-yellow-100 p-2 rounded-full">
+                    <Users className="h-6 w-6 text-yellow-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Confidence Building</h4>
@@ -205,10 +205,10 @@ const Testimonials = () => {
                 alt="Students celebrating success"
                 className="rounded-lg shadow-lg"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent rounded-lg"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/50 to-transparent rounded-lg"></div>
               <div className="absolute bottom-6 left-6 text-white">
                 <h4 className="text-xl font-semibold mb-2">Celebrating Excellence</h4>
-                <p className="text-blue-100">Every student success is our achievement</p>
+                <p className="text-yellow-100">Every student success is our achievement</p>
               </div>
             </div>
           </div>
@@ -216,16 +216,16 @@ const Testimonials = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-emerald-600 to-blue-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-500 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Join Our Success Stories</h2>
-          <p className="text-xl text-emerald-100 mb-8">
+          <p className="text-xl text-yellow-100 mb-8">
             Give your child the opportunity to excel with our proven holiday tuition programs
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a
               href="/booking"
-              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105"
+              className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105"
             >
               Book a Session
             </a>
@@ -233,7 +233,7 @@ const Testimonials = () => {
               href="https://wa.me/254726540892"
               target="_blank"
               rel="noopener noreferrer"
-              className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
+              className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
             >
               Contact Us
             </a>

@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <GraduationCap className="h-8 w-8 text-blue-400" />
+              <GraduationCap className="h-8 w-8 text-purple-400" />
               <div>
                 <h3 className="text-xl font-bold">GREAT EXCELLERS</h3>
                 <p className="text-sm text-gray-300">CENTRE MOMBASA</p>
@@ -30,10 +30,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-gray-300 hover:text-blue-400 transition-colors">About Us</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-blue-400 transition-colors">Our Services</Link></li>
-              <li><Link to="/venues" className="text-gray-300 hover:text-blue-400 transition-colors">Venues</Link></li>
-              <li><Link to="/booking" className="text-gray-300 hover:text-blue-400 transition-colors">Book Session</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-purple-400 transition-colors">About Us</Link></li>
+              <li><Link to="/services" className="text-gray-300 hover:text-purple-400 transition-colors">Our Services</Link></li>
+              <li><Link to="/venues" className="text-gray-300 hover:text-purple-400 transition-colors">Venues</Link></li>
+              <li><Link to="/booking" className="text-gray-300 hover:text-purple-400 transition-colors">Book Session</Link></li>
             </ul>
           </div>
 
@@ -42,14 +42,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
-                <Phone className="h-4 w-4 mt-0.5 text-blue-400" />
+                <Phone className="h-4 w-4 mt-0.5 text-purple-400" />
                 <div>
                   <p className="text-sm font-medium">Mr. Masime (General)</p>
                   <p className="text-gray-300">0726540892</p>
                 </div>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="h-4 w-4 mt-0.5 text-blue-400" />
+                <MapPin className="h-4 w-4 mt-0.5 text-purple-400" />
                 <div>
                   <p className="text-sm font-medium">Venues</p>
                   <p className="text-gray-300">Mtwapa & Shanzu</p>

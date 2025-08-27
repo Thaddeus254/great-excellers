@@ -38,7 +38,7 @@ const Booking = () => {
     'Primary School (Grade 1- Grade 6)',
     'Junior School (Grade 7- Grade 9)',
     'Senior School',
-    '844 system (Form 2-4)'
+    '844 system (Form 2-4)'
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -85,11 +85,11 @@ Thank you for your assistance.`;
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-emerald-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple-600 to-green-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">Book Your Session</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-yellow-100 max-w-3xl mx-auto">
               Reserve your spot for the upcoming holiday tuition program
             </p>
           </div>
@@ -121,7 +121,7 @@ Thank you for your assistance.`;
                         key={venue.name}
                         className={`border-2 rounded-lg p-4 cursor-pointer transition-all ${
                           selectedVenue === venue.name
-                            ? 'border-blue-500 bg-blue-50'
+                            ? 'border-purple-500 bg-purple-50'
                             : 'border-gray-200 hover:border-gray-300'
                         }`}
                         onClick={() => setSelectedVenue(venue.name)}
@@ -162,7 +162,7 @@ Thank you for your assistance.`;
                       name="studentName"
                       value={formData.studentName}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                       placeholder="Enter student's full name"
                       required
                     />
@@ -178,7 +178,7 @@ Thank you for your assistance.`;
                       name="parentName"
                       value={formData.parentName}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                       placeholder="Enter parent/guardian name"
                       required
                     />
@@ -196,7 +196,7 @@ Thank you for your assistance.`;
                       name="phone"
                       value={formData.phone}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                       placeholder="0712345678"
                       required
                     />
@@ -211,7 +211,7 @@ Thank you for your assistance.`;
                       name="studentLevel"
                       value={formData.studentLevel}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                       required
                     >
                       <option value="">Select level</option>
@@ -235,7 +235,7 @@ Thank you for your assistance.`;
                       name="subjects"
                       value={formData.subjects}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                       placeholder="e.g., Mathematics, Sciences, English"
                     />
                   </div>
@@ -249,7 +249,7 @@ Thank you for your assistance.`;
                       name="preferredTime"
                       value={formData.preferredTime}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                     >
                       <option value="">Select preferred time</option>
                       <option value="8:00 AM - 10:00 AM">8:00 AM - 10:00 AM</option>
@@ -268,17 +268,17 @@ Thank you for your assistance.`;
                     value={formData.specialRequests}
                     onChange={handleInputChange}
                     rows={4}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
                     placeholder="Any special requirements, questions about the program, or additional information..."
                   />
                 </div>
 
-                <div className="bg-blue-50 p-4 rounded-lg">
+                <div className="bg-purple-50 p-4 rounded-lg">
                   <div className="flex items-center space-x-2 mb-2">
-                    <MessageCircle className="h-5 w-5 text-blue-600" />
-                    <h3 className="font-semibold text-blue-900">Next Steps</h3>
+                    <MessageCircle className="h-5 w-5 text-purple-600" />
+                    <h3 className="font-semibold text-purple-900">Next Steps</h3>
                   </div>
-                  <p className="text-blue-800 text-sm">
+                  <p className="text-purple-800 text-sm">
                     After clicking "Book Session", you'll be redirected to WhatsApp to complete your booking 
                     with the venue coordinator. They will provide additional details about schedules, fees, 
                     and confirm your registration.
@@ -308,7 +308,7 @@ Thank you for your assistance.`;
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <Calendar className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <Calendar className="h-12 w-12 text-purple-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Flexible Scheduling</h3>
               <p className="text-gray-600">
                 Sessions run Monday to Friday during school holidays, starting the first Monday after closure
@@ -316,7 +316,7 @@ Thank you for your assistance.`;
             </div>
 
             <div className="text-center">
-              <Phone className="h-12 w-12 text-emerald-600 mx-auto mb-4" />
+              <Phone className="h-12 w-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Instant Confirmation</h3>
               <p className="text-gray-600">
                 Get immediate confirmation and detailed information via WhatsApp from venue coordinators
@@ -324,7 +324,7 @@ Thank you for your assistance.`;
             </div>
 
             <div className="text-center">
-              <BookOpen className="h-12 w-12 text-amber-600 mx-auto mb-4" />
+              <BookOpen className="h-12 w-12 text-red-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Exam Registration</h3>
               <p className="text-gray-600">
                 We also assist with national exam registration - ask your coordinator for details

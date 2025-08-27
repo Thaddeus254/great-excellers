@@ -34,7 +34,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2 group">
-            <GraduationCap className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform" />
+            <GraduationCap className="h-8 w-8 text-purple-600 group-hover:scale-110 transition-transform" />
             <div>
               <h1 className="text-lg font-bold text-gray-900">GREAT EXCELLERS</h1>
               <p className="text-xs text-gray-600">CENTRE MOMBASA</p>
@@ -47,9 +47,9 @@ const Header = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                className={`text-sm font-medium transition-colors hover:text-purple-600 ${
                   location.pathname === item.path
-                    ? 'text-blue-600 border-b-2 border-blue-600'
+                    ? 'text-purple-600 border-b-2 border-purple-600'
                     : 'text-gray-700'
                 }`}
               >
@@ -74,8 +74,8 @@ const Header = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`block py-2 text-sm font-medium transition-colors hover:text-blue-600 ${
-                  location.pathname === item.path ? 'text-blue-600' : 'text-gray-700'
+                className={`block py-2 text-sm font-medium transition-colors hover:text-purple-600 ${
+                  location.pathname === item.path ? 'text-purple-600' : 'text-gray-700'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >

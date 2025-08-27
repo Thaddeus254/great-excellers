@@ -40,11 +40,11 @@ const Venues = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-emerald-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple-600 to-green-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">Our Venues</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-yellow-100 max-w-3xl mx-auto">
               Strategically located learning centers providing convenient access to quality education
             </p>
           </div>
@@ -72,7 +72,7 @@ const Venues = () => {
                 <div className="p-8">
                   {/* Location */}
                   <div className="flex items-center space-x-3 mb-4">
-                    <MapPin className="h-5 w-5 text-blue-600" />
+                    <MapPin className="h-5 w-5 text-purple-600" />
                     <span className="text-gray-700 font-medium">{venue.location}</span>
                   </div>
 
@@ -104,7 +104,7 @@ const Venues = () => {
                     <ul className="grid grid-cols-1 gap-2">
                       {venue.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center space-x-2">
-                          <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+                          <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                           <span className="text-gray-600">{feature}</span>
                         </li>
                       ))}
@@ -116,7 +116,7 @@ const Venues = () => {
                     href={venue.whatsapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold text-center block transition-colors"
+                    className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg font-semibold text-center block transition-colors"
                   >
                     Book Session at {venue.name}
                   </a>
@@ -139,39 +139,39 @@ const Venues = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-              <Clock className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <Clock className="h-12 w-12 text-purple-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Operating Hours</h3>
               <p className="text-gray-600 mb-2">Monday to Friday</p>
-              <p className="text-lg font-medium text-blue-600">8:00 AM - 12:30 PM</p>
+              <p className="text-lg font-medium text-purple-600">8:00 AM - 12:30 PM</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-              <Users className="h-12 w-12 text-emerald-600 mx-auto mb-4" />
+              <Users className="h-12 w-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Class Sizes</h3>
               <p className="text-gray-600 mb-2">Optimal learning environment</p>
-              <p className="text-lg font-medium text-emerald-600">Small Class Sizes</p>
+              <p className="text-lg font-medium text-green-600">Small Class Sizes</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-              <Car className="h-12 w-12 text-amber-600 mx-auto mb-4" />
+              <Car className="h-12 w-12 text-red-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Accessibility</h3>
               <p className="text-gray-600 mb-2">Easy to reach locations</p>
-              <p className="text-lg font-medium text-amber-600">Parking Available</p>
+              <p className="text-lg font-medium text-red-600">Parking Available</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gradient-to-r from-emerald-600 to-blue-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-500 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Need Help Choosing a Venue?</h2>
-          <p className="text-xl text-emerald-100 mb-8">
+          <p className="text-xl text-yellow-100 mb-8">
             Contact our general coordinator for guidance on the best venue for your needs
           </p>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Mr. Masime - General Coordinator</h3>
-            <p className="text-emerald-100 mb-4">Phone: 0726540892</p>
+            <p className="text-yellow-100 mb-4">Phone: 0726540892</p>
             <a
               href="https://wa.me/254726540892"
               target="_blank"
